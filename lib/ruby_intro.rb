@@ -4,9 +4,12 @@
 
 def sum(arr)
   # YOUR CODE HERE
+  return 0 if arr.empty?
+  arr.first + sum(arr.drop(1))
 end
 
 def max_2_sum(arr)
+  
   # YOUR CODE HERE
 end
 
